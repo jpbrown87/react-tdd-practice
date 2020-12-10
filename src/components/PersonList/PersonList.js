@@ -7,8 +7,8 @@ const PersonList = ({ listOfPeople }) => {
         <ul>
           {listOfPeople.map((person) => (
             <li key={`Person List Item${person.id}`}>
-                { person.name }
-                <button type="button">Edit</button>              
+              {person.name}
+              <button type="button">Edit</button>
             </li>
           ))}
         </ul>
